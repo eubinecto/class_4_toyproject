@@ -12,6 +12,7 @@ def main():
     conv_3 = Conversation("I'm thinking of a red fruit. Can you guess what it is?")
     # 이런식으로 대화를 진행하는 것 같다?
     res = conversational_pipeline([conv_1, conv_2, conv_3])
+    print(type(res))
     print(res)
 
 
