@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# toyenv
+toyenv
+
+# ide 설정파일은 버전 컨트롤 할 필요가 없다.
+.idea
+
